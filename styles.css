@@ -12,9 +12,6 @@ header {
 }
 
 
-.title {
-}
-
 .links {
     padding-bottom: 30px;
 }
@@ -29,7 +26,7 @@ main {
     justify-content: center;
     flex-direction: column;
     width: 100vw;
-    /* background-color: white; */
+
 }
 
 
@@ -38,7 +35,6 @@ main {
     display: flex;
     width: 100vw;
     height : 60vh;
-    /* background-color: white; */
     align-items: center;
     justify-content: center;
 }
@@ -50,7 +46,7 @@ main {
 
 .sections {
     display: flex;
-    height : 60vh
+    height: 90vh;
 }
 
 .sections div {
@@ -68,8 +64,4 @@ header.dark-mode {
     color: #fff;
 }
 
-.main.dark-mode {
-    background-color: #333;
-    color: #fff;
-}
 
