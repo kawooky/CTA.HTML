@@ -21,13 +21,17 @@
         </div>
 
         <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
-        <p>This is a paragraph <!-- Error 3: Unclosed <p> tag -->
 
+
+        <!-- Error 4: Nested <div> inside a <span>, which is invalid HTML -->
+        <span>
+            <div>Invalid nesting of div inside span</div>
+        </span>
 
 
     </main>
 
 
     <script src="script.js"></script>
-</body>
+
 </html>
